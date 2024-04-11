@@ -20,7 +20,6 @@ public class Main {
                 builder.setLength(0);
                 builder.append(firstLine);
 
-
                 System.out.println(firstLine);
                 System.out.println(secondLine);
 
@@ -31,10 +30,10 @@ public class Main {
                 }
             }
         });
-
+        //thread start
         t.start();
 
-        //stop
+        //loop stop
         System.in.read();
         keepRunning = false;
         t.join();
